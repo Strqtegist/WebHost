@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Registro y Login</title>
+</head>
+<body>
+
+  <form action="registro.php" method="post">
+    <input type="text" name="nombre" placeholder="Nombre completo">
+    <input type="number" name="edad" min="18" placeholder="Edad">
+    <input type="date" name="fecha_nacimiento" placeholder="Fecha de nacimiento">
+    <input type="text" name="tarjeta" placeholder="Número de tarjeta">
+    <input type="month" name="mes_vencimiento" placeholder="Mes de vencimiento">
+    <input type="year" name="anio_vencimiento" placeholder="Año de vencimiento">
+    <input type="submit" value="Registrar">
+  </form>
+
+  <form action="login.php" method="post">
+    <input type="text" name="usuario" placeholder="Usuario">
+    <input type="password" name="contraseña" placeholder="Contraseña">
+    <input type="submit" value="Iniciar sesión">
+  </form>
+
+</body>
+</html>
