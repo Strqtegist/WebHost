@@ -1,1 +1,19 @@
+# Ignorar todos los archivos de origen
+*.html
+*.css
+*.js
+
+# Ignorar todos los archivos de configuración
+*.config.json
+
+# Ignorar todos los archivos de caché
+*.cache
+
+# Ignorar todos los archivos temporales
+*.tmp
+
+# Ignorar todos los archivos generados
+*.generated
+
+# Ignorar el archivo de usuarios
 usuarios.json
